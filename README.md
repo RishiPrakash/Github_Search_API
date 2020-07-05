@@ -92,3 +92,5 @@ URI : ​http://localhost:9080/api/users
 ] }
 ```
 #### Eclipse Console can be looked upon to see a summary of execution, which describes how many records were submitted and how many of them are now successful and which one of them were not.An exmple of that is attached in the repo root folder with name ExecutionSummary.txt.
+
+#### To understand the code exeuction flow, a file with name ExecutionFlow.pdf is attached which gives an overview of how code works
