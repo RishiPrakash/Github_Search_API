@@ -6,7 +6,7 @@ Identify a Developer’s profile on GitHub, when following attributes are provid
 1. First Name
 2. Last Name
 3. Location
-Once the profile has been identified, extract following attributes from the profile:
+### Once the profile has been identified, extract following attributes from the profile:
 1. Public profile details
 2. Name of repositories where they are contributing
 3. No. of commits made by that developer on those repositories
