@@ -1,0 +1,69 @@
+[
+  {
+    "firstName": "Chunky",
+    "lastName": "Garg",
+    "location": "Gurgaon"
+  },
+  {
+    "firstName": "Rishi",
+    "lastName": "Prakash",
+    "location": "Gurgaon"
+  },
+  {
+    "firstName": "Sharvi",
+    "lastName": "Verma",
+    "location": "India"
+  },
+  {
+    "firstName": "Rahul",
+    "lastName": "Gaur",
+    "location": "India"
+  },
+  {
+    "firstName": "Abhishek",
+    "lastName": "Parikh"
+  },
+  {
+    "firstName": "Anubhav",
+    "lastName": "Saxena"
+  },
+  {
+    "firstName": "Shiva",
+    "lastName": "Tiwari",
+    "location": "Bangalore"
+  },
+  {
+    "firstName": "Sumit",
+    "lastName": "Yadav",
+    "location": "New Delhi"
+  },
+  {
+    "firstName": "Varun",
+    "lastName": "Arora",
+    "location": "India"
+  },
+  {
+    "firstName": "Anshika",
+    "lastName": "Singh",
+    "location": "India"
+  },
+  {
+    "firstName": "Salman",
+    "lastName": "Kagzi"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Golick",
+    "location": "New York"
+  },
+  {
+    "firstName": "Dave",
+    "lastName": "Fayram",
+    "location": "San Francisco, CA"
+  },
+  {
+    "firstName": "Nishan",
+    "lastName": "Perera",
+    "location": "London"
+  }
+]
