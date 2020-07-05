@@ -1,0 +1,50 @@
+Fetching Rate Limit...
+Fetched Per minute RateLimit:30.0
+Fetched per second RateLimit:0.5
+Tue Jun 30 19:18:14 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:chunky garg+location:gurgaon
+Tue Jun 30 19:18:18 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:rishi prakash+location:gurgaon
+Tue Jun 30 19:18:22 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:sharvi verma+location:india
+No Details found for this user  =  FirstName:Sharvi LastName:Verma Location:India
+Tue Jun 30 19:18:26 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:rahul gaur+location:india
+Tue Jun 30 19:18:30 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:abhishek parikh
+Tue Jun 30 19:18:34 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:anubhav saxena
+Tue Jun 30 19:18:38 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:shiva tiwari+location:bangalore
+No Details found for this user  =  FirstName:Shiva LastName:Tiwari Location:Bangalore
+Tue Jun 30 19:18:42 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:sumit yadav+location:new delhi
+No Details found for this user  =  FirstName:Sumit LastName:Yadav Location:New Delhi
+Tue Jun 30 19:18:46 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:varun arora+location:india
+No Details found for this user  =  FirstName:Varun LastName:Arora Location:India
+Tue Jun 30 19:18:50 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:anshika singh+location:india
+Tue Jun 30 19:18:54 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:salman kagzi
+No Details found for this user  =  FirstName:Salman LastName:Kagzi Location:null
+Tue Jun 30 19:18:58 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:james golick+location:new york
+No Details found for this user  =  FirstName:James LastName:Golick Location:New York
+Tue Jun 30 19:19:02 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:dave fayram+location:san francisco, ca
+No Details found for this user  =  FirstName:Dave LastName:Fayram Location:San Francisco, CA
+Tue Jun 30 19:19:06 IST 2020: new task is given to executor
+https://api.github.com/search/users?q=fullname:nishan perera+location:london
+********************Summary of Execution**********************
+Total Users submitted to Executor = 14
+Total Users returned by Executor = 7
+Data of some/all users was not fetched, Find Details of Users which failed below
+1.FirstName:Sharvi LastName:Verma Location:India
+2.FirstName:Shiva LastName:Tiwari Location:Bangalore
+3.FirstName:Sumit LastName:Yadav Location:New Delhi
+4.FirstName:Varun LastName:Arora Location:India
+5.FirstName:Salman LastName:Kagzi Location:null
+6.FirstName:James LastName:Golick Location:New York
+7.FirstName:Dave LastName:Fayram Location:San Francisco, CA
+********************Summary of Execution**********************
