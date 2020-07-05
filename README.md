@@ -26,11 +26,13 @@ GitHub APIs gives two ways to access it,
 For both the ways it defines a rate limit per minute, for example with authentication it permits 30 requests per minute.
 I have used guava rateLimiter APIs which provides token, which are needed to be acquired by any task before they can be submitted to executor. We provide a rate at which these permits can be given to tasks.
 Example
+```
 final RateLimiter rateLimiter = RateLimiter.create(2.0); // rate is "2 permits per second"
 This rateLimiter will be used to distribute tokens at a defined rate.
 void submitTasks(List<Runnable> tasks, Executor executor) { for (Runnable task : tasks) {
 rateLimiter.acquire(); // may make the task wait before it can be given to executor
 executor.execute(task); }}
+```
 #### Q. How I have defined this rate in the API submitted?
 API first makes a call to github rate limit API to get what is the remaining rate limit quota, that rateLimit quota is then broken down per second and then divided by two( because each time to calculate information for each user, we are making two API calls). Using this number, we are defining the permissible rate of token generation.
   
