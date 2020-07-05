@@ -60,12 +60,16 @@ required value of it can be updated in application.properties
 URI : ​http://localhost:9080/api/users
 1. Set content-type as application/json
 2. Put following in Body
-     
+
+```
 [{
-"firstName"​:​"Chunky"​, "lastName"​:​"Garg"​, "location"​:​"Gurgaon"
+"firstName"​:​"Chunky"​,
+"lastName"​:​"Garg"​, 
+"location"​:​"Gurgaon"
 }​]
- 
+``` 
 3. Hit send and you will get result like
+```
 {
 ​"public_information"​: {
 ​"id"​: ​7038167​,
@@ -86,4 +90,5 @@ URI : ​http://localhost:9080/api/users
 ​"repoName"​: ​"clientapp"​,
 } ​"totalCommit"​: ​8
 ] }
-#### Console can be looked upon to see a summary of execution, which describes how many records were submitted and how many of them are now successful and which one of them were not.
+```
+#### Eclipse Console can be looked upon to see a summary of execution, which describes how many records were submitted and how many of them are now successful and which one of them were not.
